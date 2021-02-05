@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="#0184de"
+    android:scrollbars="vertical"
+    app:cardCornerRadius="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0184de"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Product Name:"
+                android:fontFamily="@font/roboto_regular"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dbproductName"
+                android:textColor="#fff"
+                android:fontFamily="@font/roboto_regular"
+                android:id="@+id/expirydbname"
+                android:layout_weight="0.7"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Product Code:"
+                android:fontFamily="@font/roboto_regular"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dbcode"
+                android:textColor="#fff"
+                android:fontFamily="@font/roboto_regular"
+                android:id="@+id/expirydbcode"
+                android:layout_weight="0.7"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date of Expiry:"
+                android:fontFamily="@font/roboto_regular"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="expirydbedate"
+                android:textColor="#fff"
+                android:fontFamily="@font/roboto_regular"
+                android:id="@+id/expirydbedate"
+                android:layout_weight="0.7"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Remaining Quantity:"
+                android:fontFamily="@font/roboto_regular"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="expirydbquantity"
+                android:textColor="#fff"
+                android:fontFamily="@font/roboto_regular"
+                android:id="@+id/expirydbquantity"
+                android:layout_weight="0.7"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

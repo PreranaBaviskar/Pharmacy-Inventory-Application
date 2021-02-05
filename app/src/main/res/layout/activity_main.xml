@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0184de"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Pharmacy System"
+        android:layout_marginHorizontal="20dp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A Medical Store Inventory Software"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_regular"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textAlignment="center" />
+<ImageView
+    android:layout_marginTop="100dp"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:src="@drawable/pharmcirclefinal"
+    />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

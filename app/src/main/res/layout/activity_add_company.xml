@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    tools:context=".addCompany"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textColor="#0184de"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="25dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Add Company"
+        android:id="@+id/tv_logo"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/roboto_regular"
+        android:id="@+id/layout_company_name"
+        android:layout_marginHorizontal="10dp"
+        android:textColorHint="#0184de"
+        app:errorEnabled="true">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="120dp"
+        android:textColor="#000"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/company_name"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#0184de"
+        android:ems="10"
+        android:hint="Company"
+        android:inputType="textPersonName"
+        />
+
+</com.google.android.material.textfield.TextInputLayout>
+
+
+  <com.google.android.material.textfield.TextInputLayout
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:layout_marginTop="16dp"
+      android:fontFamily="@font/roboto_regular"
+      android:id="@+id/layout_address"
+      android:layout_marginHorizontal="10dp"
+      android:textColorHint="#0184de" app:errorEnabled="true">
+
+    <com.google.android.material.textfield.TextInputEditText android:layout_height="50dp" android:layout_width="match_parent" android:layout_marginTop="120dp" android:textColor="#000" android:fontFamily="@font/roboto_regular" android:layout_marginBottom="8dp" android:layout_marginStart="20dp" android:id="@+id/company_address" android:layout_marginEnd="20dp" android:backgroundTint="#0184de" android:ems="10" android:hint="Address" android:inputType="textPersonName"/>
+
+</com.google.android.material.textfield.TextInputLayout>
+
+
+ <com.google.android.material.textfield.TextInputLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="16dp" android:fontFamily="@font/roboto_regular" android:id="@+id/layout_phone" android:layout_marginHorizontal="10dp" android:textColorHint="#0184de" app:errorEnabled="true">
+
+    <com.google.android.material.textfield.TextInputEditText android:layout_height="50dp" android:layout_width="match_parent" android:layout_marginTop="120dp" android:textColor="#000" android:fontFamily="@font/roboto_regular" android:layout_marginBottom="8dp" android:layout_marginStart="20dp" android:id="@+id/company_phone" android:layout_marginEnd="20dp" android:backgroundTint="#0184de" android:ems="10" android:hint="PhoneNumber" android:inputType="textPersonName"/>
+
+</com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/addcompany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_custom"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Add"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

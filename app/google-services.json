@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1015901300057",
+    "firebase_url": "https://pharmacy-management-syst-d6cd3.firebaseio.com",
+    "project_id": "pharmacy-management-syst-d6cd3",
+    "storage_bucket": "pharmacy-management-syst-d6cd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015901300057:android:5655533cd410727242d848",
+        "android_client_info": {
+          "package_name": "com.example.pharmacysystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015901300057-3bd56hmuof8rpujkhmcrbsnhgd5u82kg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pharmacysystem",
+            "certificate_hash": "6df5a1ab87b00e743cc372849ce515dee24073cb"
+          }
+        },
+        {
+          "client_id": "1015901300057-k0vvmvec7km5hbkobn0n2v9u04atq53c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5HypLhAIYWBBkup20K2jaPM3PfG_-TOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015901300057-k0vvmvec7km5hbkobn0n2v9u04atq53c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

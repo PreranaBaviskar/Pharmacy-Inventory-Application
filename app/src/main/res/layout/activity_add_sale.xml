@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".addSale">
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/tv_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Sale"
+                android:textAlignment="center"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:layout_marginStart="25dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#0184de"
+                android:layout_marginTop="60dp"/>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                app:errorEnabled="true"
+                android:textColorHint="#0184de"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/layout_address">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_height="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginStart="20dp"
+                    android:id="@+id/sale_medicine"
+                    android:textColor="#000"
+                    android:fontFamily="@font/roboto_regular"
+                    android:inputType="textPersonName"
+                    android:hint="Medicine name"
+                    android:ems="10"
+                    android:backgroundTint="#0184de"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="20dp"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                app:errorEnabled="true"
+                android:textColorHint="#0184de"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/layout_company_name">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_height="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginStart="20dp"
+                    android:id="@+id/sale_type"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="#000"
+                    android:inputType="textPersonName"
+                    android:hint="Type"
+                    android:ems="10"
+                    android:backgroundTint="#0184de"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="20dp"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                app:errorEnabled="true"
+                android:textColorHint="#0184de"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/layout_quantity">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_height="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginStart="20dp"
+                    android:id="@+id/sale_dose"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="#000"
+                    android:inputType="textPersonName"
+                    android:hint="Dose"
+                    android:ems="10"
+                    android:backgroundTint="#0184de"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="20dp"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                app:errorEnabled="true"
+                android:textColorHint="#0184de"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/layout_price">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_height="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginStart="20dp"
+                    android:id="@+id/sale_quantity"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="#000"
+                    android:inputType="textPersonName"
+                    android:hint="Quantity"
+                    android:ems="10"
+                    android:backgroundTint="#0184de"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="20dp"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                app:errorEnabled="true"
+                android:fontFamily="@font/roboto_regular"
+                android:textColorHint="#0184de"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/price">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_height="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginStart="20dp"
+                    android:id="@+id/sale_price"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="#000"
+                    android:inputType="textPersonName"
+                    android:hint="Price"
+                    android:ems="10"
+                    android:backgroundTint="#0184de"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="20dp"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                app:errorEnabled="true"
+                android:fontFamily="@font/roboto_regular"
+                android:textColorHint="#0184de"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/amount">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_height="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginStart="20dp"
+                    android:id="@+id/sale_amount"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="#000"
+                    android:inputType="textPersonName"
+                    android:hint="Amount"
+                    android:ems="10"
+                    android:backgroundTint="#0184de"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="20dp"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                app:errorEnabled="true"
+                android:fontFamily="@font/roboto_regular"
+                android:textColorHint="#0184de"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="10dp"
+                android:id="@+id/date">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_height="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginStart="20dp"
+                    android:id="@+id/sale_date"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="#000"
+                    android:inputType="textPersonName"
+                    android:hint="Date"
+                    android:ems="10"
+                    android:backgroundTint="#0184de"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="20dp"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_custom"
+                android:layout_marginHorizontal="100dp"
+                android:text="Add"
+                android:fontFamily="@font/roboto_regular"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/addtodb_sale"
+                android:textColor="#fff"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".Receipt"
+    >
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        >
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="2dp"
+            >
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Invoice"
+                android:textColor="#0184de"
+                android:textStyle="bold"
+                android:textSize="50dp"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:id="@+id/ph1"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <ImageView
+                android:layout_height="35dp"
+                android:layout_width="100dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/plus" android:layout_weight="1" android:scaleType="centerInside"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:text="Pharmacy Store"
+                android:layout_weight="1"
+                android:id="@+id/storename"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                />
+
+            <ImageView
+                android:layout_height="35dp"
+                android:layout_width="100dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/plus" android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Pune"
+            android:id="@+id/storeaddr"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            />
+
+        <View
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="#000000
+" android:layout_marginTop="3dp"/>
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingBottom="1dp"
+            android:paddingTop="1dp"
+            >
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:paddingLeft="4dp"
+                android:text="Invoice ID :"
+                android:layout_weight="2"
+                android:textSize="12sp"
+                android:textStyle="normal|italic"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text=""
+                android:layout_weight="1"
+                android:id="@+id/invoiceid"
+                android:textSize="12sp"
+                android:textColor="#000000"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:paddingLeft="3dp" android:paddingRight="3dp" android:paddingBottom="1dp" android:paddingTop="1dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:paddingLeft="4dp"
+                android:text="Date :"
+                android:layout_weight="2"
+                android:textSize="12sp"
+                android:textStyle="normal|italic"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="" android:layout_weight="1" android:id="@+id/date" android:textSize="12sp" android:textColor="#000000" android:layout_marginLeft="-30dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:paddingLeft="3dp" android:paddingRight="3dp" android:paddingBottom="1dp" android:paddingTop="1dp" android:weightSum="8">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:paddingLeft="4dp"
+                android:text="Patient : "
+                android:textSize="12sp"
+                android:textStyle="normal|italic" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:paddingRight="10dp"
+                android:text="" android:layout_weight="4" android:id="@+id/ptname" android:textSize="12sp" android:textColor="#000000" android:maxWidth="200dp"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:paddingLeft="3dp" android:paddingRight="3dp" android:paddingBottom="1dp" android:paddingTop="1dp" android:weightSum="4">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:paddingLeft="4dp"
+                android:text="Doctor Name : " android:layout_weight="1" android:textSize="12sp" android:textStyle="normal|italic" android:lines="1"/>
+
+            <TextView android:layout_height="wrap_content" android:layout_width="0dp" android:text="" android:layout_weight="3" android:id="@+id/docname" android:textSize="12sp" android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:paddingLeft="3dp" android:paddingRight="3dp" android:paddingBottom="1dp" android:paddingTop="1dp" android:weightSum="4">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:paddingLeft="4dp"
+                android:text="Medication : " android:layout_weight="1" android:textSize="12sp" android:textStyle="normal|italic" android:lines="1"/>
+
+            <TextView android:layout_height="wrap_content" android:layout_width="0dp" android:text="" android:layout_weight="3" android:id="@+id/medication" android:textSize="12sp" android:textColor="#000000"/>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:background="@drawable/border" android:orientation="horizontal" android:padding="2dp">
+
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_vertical"
+                android:text="Total:"
+                android:layout_weight="1"
+                android:textStyle="normal|bold|italic"/>
+
+            <ImageView
+                android:layout_height="20dp"
+                android:layout_width="20dp"
+                android:padding="2dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/rupees"/>
+
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="center_vertical" android:text="" android:layout_weight="1" android:id="@+id/totamt" android:textSize="18dp" android:textStyle="bold" android:textColor="#000000"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
